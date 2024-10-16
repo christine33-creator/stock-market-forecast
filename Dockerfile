@@ -18,4 +18,4 @@ EXPOSE 5000
 ENV PYTHONUNBUFFERED=1
 
 # Run app.py when the container launches
-CMD ["python", "app.py"]
+CMD ["python", "python_script.py"]
